@@ -1,0 +1,35 @@
+#Endpoint para cadastro de usuário
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{
+    "email": "ciclano@ciclano",
+    "nome": "ciclano",
+    "senha": "123456"
+}
+
+###
+
+#Endpoint para login no sistema.
+POST http://localhost:8080/api/usuarios/login
+Content-Type: application/json
+
+{
+    "email": "ciclano@ciclano",
+    "senha": "123456"
+}
+
+###
+
+POST http://localhost:8080/api/usuarios/email
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjUzNTIzMzAyLCJleHAiOjE2NTM2MDk3MDJ9.0AV5pKTHYUj26gpudipP-Vd98yl2_pisRquyyAKGYK1ujlR0O0Xpjll62QGzACj8g9EXxCjptnzB3LlTExk5BQ
+
+{
+    "assunto": "Assunto",
+    "mensagem": "<h1>Deu certo!!!!</h1>",
+    "remetente": "<seu-email>",
+    "destinatarios": [
+        "<destinatario>"
+    ]
+}

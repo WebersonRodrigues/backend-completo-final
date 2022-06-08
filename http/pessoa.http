@@ -1,0 +1,25 @@
+
+
+POST http://localhost:8080/api/pessoas
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ1ODAxLCJleHAiOjE2NTQ3MzIyMDF9.3p0uI-D2QMuYvCBqKCeOQLgZJf_vUukpVUJcSpcNNO8KaLAM7vixf6k4YDsrpCBEGxqoVrIkrAucqsKyzV75EA
+
+{
+    "nome": "Ciclano da silva"
+}
+
+###
+
+GET http://localhost:8080/api/pessoas
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ3OTc3LCJleHAiOjE2NTQ3MzQzNzd9.Kd1U3cbXEhwQn9I-ecFf9Q1_5hhhwMFfaKeMeXcXQd3hxGX2YpyulCaIdvAZ8F7ZEoYxbti2bZ5RI3m7rTN83A
+
+
+###
+
+PUT  http://localhost:8080/api/pessoas/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ3NTY3LCJleHAiOjE2NTQ3MzM5Njd9.2gPfOMgDSMEMe0yiQUK4Ubrq6pLyqQyhb1LDcA9KovjfaqXNay35Lkppzl5T5MK5_-02xpKV6wj1ON7e-raXrg
+
+{
+    "nome": "Beltrano Rodrigues"
+}

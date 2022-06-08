@@ -1,0 +1,26 @@
+
+
+POST http://localhost:8080/api/avaliacoes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ3MjAxLCJleHAiOjE2NTQ3MzM2MDF9.prRRLXpzg65mJZLqrG4CnbNxniEcURxXKddfVl08SXH-EJYVUSDoXOAfy6tuwmYK1xobzLvaqcIFGfMfZR0CgA
+
+{
+    "descricao": "Prova API Java"
+}
+
+###
+
+GET http://localhost:8080/api/avaliacoes
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ3OTc3LCJleHAiOjE2NTQ3MzQzNzd9.Kd1U3cbXEhwQn9I-ecFf9Q1_5hhhwMFfaKeMeXcXQd3hxGX2YpyulCaIdvAZ8F7ZEoYxbti2bZ5RI3m7rTN83A
+
+###
+PUT http://localhost:8080/api/avaliacoes/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ3MjAxLCJleHAiOjE2NTQ3MzM2MDF9.prRRLXpzg65mJZLqrG4CnbNxniEcURxXKddfVl08SXH-EJYVUSDoXOAfy6tuwmYK1xobzLvaqcIFGfMfZR0CgA
+
+{
+    "descricao": "Prova API Banco de Dados",
+    "pessoa":{
+        "id": 3
+    }
+}

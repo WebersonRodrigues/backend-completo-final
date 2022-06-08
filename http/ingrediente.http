@@ -1,0 +1,14 @@
+
+
+POST http://localhost:8080/api/ingredientes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ5NjU1LCJleHAiOjE2NTQ3MzYwNTV9.Bg62SuFikjyPvPdWhVJ9AKDUXX-VmQK6xdcFMJt0J0bZWUhBb4To6T2Wq8F9oUBvyhFYr979L4J0m2XA32I0CQ
+
+{
+    "descricao": "Contra Filé"
+}
+
+###
+
+GET http://localhost:8080/api/ingredientes
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjUwMDU1LCJleHAiOjE2NTQ3MzY0NTV9.JLXeWVBMp_TSDN2aU9XzIOBnO2vNtJB38cI_NYHQwQ-JY-hO0DIxCMxhZNtRm7V1x6MPjIGHm8JTxQf5iQwKmw

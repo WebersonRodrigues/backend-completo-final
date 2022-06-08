@@ -1,0 +1,14 @@
+
+
+POST http://localhost:8080/api/categorias
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0MzAxMjk2LCJleHAiOjE2NTQzODc2OTZ9.Py8xAewGFIOnKbgvYEUqm-O3LuRdwoZ6I6LRLgWLIGlNKRxz-VdHNayEjX7r57blT2g_OS-QvQZBEQHJ_OpFow
+
+{
+    "descricao": "Técnologia"
+}
+
+###
+
+GET http://localhost:8080/api/categorias
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ0MTQyLCJleHAiOjE2NTQ3MzA1NDJ9.90jzisvZga0bOX5Fhw0qjuhgpQzsmCQ5mUGpv1aSYLPrBtg6eFLslwisTJu8LGOofVeKNt7LUzw8wk_nK4ORuw

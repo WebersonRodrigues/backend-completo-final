@@ -1,0 +1,16 @@
+
+
+POST http://localhost:8080/api/eventos
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQzMjA3LCJleHAiOjE2NTQ3Mjk2MDd9.rko1BzuirIVeJhNVrOs_5ZOvbWhVTwssNWl1kmdsq4x7E6ru8tK-vQWXP1NmQfDS75WmJOISsqMguHoJ5eZZbw
+
+{
+    "email": "ciclano@ciclano",
+    "nome": "ciclano",
+    "senha": "123456"
+}
+
+###
+
+GET http://localhost:8080/api/eventos
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjU0NjQ0MDI1LCJleHAiOjE2NTQ3MzA0MjV9.6NJjaWTGFahXhmvCYmYylcdhCSbzE_3vOVmaT0OiK0PRZ55mY0JbSvtto7mr_Xi-qHKQi9a7ZPGrOLophsc9xw
